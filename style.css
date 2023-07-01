@@ -49,12 +49,12 @@ body{
 .blog-box{
     height: 430px;
     width:350px;
-    background-color: #ffffff;
+    background-color: #ebe1e1;
     border: 1px solid #ececee;
     margin: 20px;   
 }
 .blog-box:hover{
-    background-color: #ebe1e1;
+    background-color: #ffffff;
 }
 .blog-img{
     width: 100%;
