@@ -67,3 +67,33 @@ footer {
 footer p {
   font-size: 14px;
 }
+
+/* CSS for desktop screens */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* CSS for tablets */
+@media (max-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+/* CSS for mobile devices */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .navbar-brand {
+    font-size: 14px;
+  }
+  .navbar-toggler {
+    font-size: 14px;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+}
