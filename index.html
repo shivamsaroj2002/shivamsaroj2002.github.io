@@ -163,34 +163,11 @@
       
     <section id="contact" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Leave a anonymous message for the next guy who visits !</h2>
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                   <!--Php redirection from here-->
-                    <form id = "myForm">
-                        <div class="form-group">
-                            <textarea class="form-control"id = "myInput" placeholder="Enter your message" name="message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                    <!--JS code-->
-                    <script>
-                        document.getElementById('myForm').addEventListener('submit', function(event) {
-                          event.preventDefault();
-                    
-                          var userInput = document.getElementById('myInput').value;
-                          var outputElement = document.getElementById('output');
-                    
-                          outputElement.textContent =  userInput + " ~ some person" ; // Display the user input
-                    
-                          document.getElementById('myInput').value = ''; // Clear the input field
-                        });
-                      </script>
-                </div>
-            </div><br>
-            <div id="output"></div>
+            <h2 class="text-center mb-4"></h2>
+            <a href="Blog.html" target = 'blank'><u>How do I get my potential and my life back ?..Read full blog</u> &#128279</a>    
         </div>
     </section>
+
 
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2023 All rights reserved Lifehacks100.com</p>
