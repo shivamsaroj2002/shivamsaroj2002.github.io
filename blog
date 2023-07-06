@@ -9,7 +9,7 @@
 <body>
   <header class="bg-dark text-white py-4">
     <div class="container">
-      <h1 class="mb-0">Welcome to My Blog</h1>
+      <h1 class="mb-0">Welcome to My blog</h1>
       <nav>
         <ul class="nav">
           <li class="nav-item">
