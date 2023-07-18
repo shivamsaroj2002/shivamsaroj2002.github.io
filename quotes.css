@@ -1,0 +1,107 @@
+/* styles.css */
+@import url(//fonts.googleapis.com/css?family=Hind:300,500);
+body {
+    font-family: 'hind', Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.quote-section {
+    margin-bottom: 30px;
+}
+
+.quote-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+blockquote {
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+blockquote::before {
+    content: open-quote;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+blockquote::after {
+    content: close-quote;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+blockquote footer {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Style for small screens */
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .section-heading {
+        font-size: 28px;
+    }
+
+    blockquote {
+        font-size: 20px;
+    }
+
+    blockquote::before,
+    blockquote::after {
+        font-size: 30px;
+    }
+}
